@@ -2,13 +2,13 @@ import fs from 'fs'
 import archiver from 'archiver'
 
 let handler = async (m, { conn }) => {
-    const sessionDir = './session' // ganti jika folder session berbeda
+    const sessionDir = './sessions' // ganti jika folder session berbeda
 
     if (!fs.existsSync(sessionDir)) {
         return m.reply('Folder session tidak ditemukan.')
     }
 
-    const zip = './session.zip'
+    const zip = './sessions.zip'
     const output = fs.createWriteStream(zip)
     const archive = archiver('zip', {
         zlib: { level: 9 }
