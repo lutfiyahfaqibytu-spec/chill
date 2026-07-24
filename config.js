@@ -6,7 +6,7 @@ global.pairingNumber = 6285763571655;
 global.owner = [['6285124815989', 'Agus', true]];
 
 global.namebot = 'ChiiBOT - MD';
-global.author = 'Agus';
+global.author = 'turr';
 global.source = 'https://chat.whatsapp.com/DEA9Emn1kGBCN4JpgwWBqg';
 
 global.wait = 'Loading...';
