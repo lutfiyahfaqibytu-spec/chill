@@ -3,7 +3,7 @@ import chalk from 'chalk';
 import { fileURLToPath } from 'url';
 
 global.pairingNumber = 6285763571655;
-global.owner = [['6285124815989', 'Agus', true]];
+global.owner = [['6285124815989', 'turr', true]];
 
 global.namebot = 'ChiiBOT - MD';
 global.author = 'turr';
